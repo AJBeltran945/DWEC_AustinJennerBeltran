@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
+  <h1>¡Hola mundo! Soy Austin Jenner Beltran Panghulan</h1>
+
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -18,7 +20,7 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
-  </div>
+  </div>  
 `
 
 setupCounter(document.querySelector('#counter'))
